@@ -117,7 +117,7 @@ Spend per order is flat at about $60 across every segment. **Which levers (disco
 | 5 | **Review Shirt, Blouse and Pants qualitatively** (returns, review text) before acting on ratings. | Top sellers rated below average, but item ratings do not differ beyond chance | 
 | 6 | **Do not steer customers to a shipping option to raise basket size.** | No significant shipping differences | 
 
-## SQL Coverage (18 queries)
+## SQL Coverage (19 queries)
 
 | Theme | Queries |
 | --- | --- |
