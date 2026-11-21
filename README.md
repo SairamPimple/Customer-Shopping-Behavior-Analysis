@@ -1,11 +1,11 @@
-# Customer Shopping Behavior Analysis
+# Customer Shopping Behaviour Analysis
 
 > **So what:** Spend per order is flat at about $60 in every segment, and 43% of orders carry a discount with no measurable lift in order value. The highest-return next step is a **randomized discount holdout test**, not broader promotions.
 
 <!-- PLACEHOLDER: replace with the updated Tableau screenshot after the polish edits -->
-![Customer Behavior Dashboard](images/Dashboard.png)
+![Customer Behaviour Dashboard](images/Dashboard.png)
 
-**Live dashboard:** [Customer Shopping Behavior Analysis](https://public.tableau.com:9443/views/CustomerShoppingBehaviorDashboard_17952699805870/CustomerBehaviorDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**Live dashboard:** [Customer Shopping Behaviour Analysis](https://public.tableau.com:9443/views/CustomerShoppingBehaviourDashboard_17952699805870/CustomerBehaviourDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![Python](https://img.shields.io/badge/Python-pandas%20%7C%20SciPy%20%7C%20seaborn-blue)
 ![SQL](https://img.shields.io/badge/PostgreSQL-18%20queries-336791)
@@ -132,7 +132,7 @@ Result screenshots: `[PLACEHOLDER: images/sql_screenshots/SQL_Q1_screenshot ... 
 
 - **Observational, purchaser-only data:** no causal lift is proven, and conversion or incremental volume is invisible. A holdout test is needed.
 - **One row per customer:** no time dimension, so trends, retention and true purchase counts cannot be measured.
-- **Dataset provenance:** this is a public dataset (`[PLACEHOLDER: dataset name, author, link, license]`) that looks curated or synthetic (for example, previous purchases are spread evenly from 1 to 50). Treat patterns as illustrative, not as a real retailer's behavior.
+- **Dataset provenance:** this is a public dataset (`[PLACEHOLDER: dataset name, author, link, license]`) that looks curated or synthetic (for example, previous purchases are spread evenly from 1 to 50). Treat patterns as illustrative, not as a real retailer's Behaviour.
 - **Engineering choices matter:** age brackets and loyalty-tier cut-offs are judgment calls; Fortnightly and Bi-Weekly (14 days) and Quarterly and Every 3 Months (90 days) are mapped identically; 37 ratings were imputed.
 - **Discount depth is not in the data,** so margin impact is inferred, not measured.
 
@@ -141,19 +141,19 @@ Result screenshots: `[PLACEHOLDER: images/sql_screenshots/SQL_Q1_screenshot ... 
 Names marked *(placeholder)* are suggestions, not project files.
 
 ```text
-├── data/customer_shopping_behavior.csv
-├── notebooks/Customer_Shopping_Behavior_Analysis.ipynb
-├── sql/customer_behavior_sql_queries.sql
+├── data/customer_shopping_Behaviour.csv
+├── notebooks/Customer_Shopping_Behaviour_Analysis.ipynb
+├── sql/customer_Behaviour_sql_queries.sql
 ├── dashboard/Dashboard.png
-├── reports/Customer Shopping Behavior Analysis.docx   (placeholder)
+├── reports/Customer Shopping Behaviour Analysis.docx   (placeholder)
 └── images/sql_screenshots/                            (placeholder)
 ```
 
 ## Run It
 
 1. `pip install pandas numpy scipy seaborn matplotlib sqlalchemy psycopg2-binary`
-2. Run the notebook; it loads the cleaned data into a `customer` table in a PostgreSQL database named `customer_behavior`.
-3. Run `sql/customer_behavior_sql_queries.sql` against that table.
+2. Run the notebook; it loads the cleaned data into a `customer` table in a PostgreSQL database named `customer_Behaviour`.
+3. Run `sql/customer_Behaviour_sql_queries.sql` against that table.
 
 > Credentials are read from environment variables. Never commit a password.
 
