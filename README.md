@@ -106,17 +106,6 @@ Spend per order is flat at about $60 across every segment. **Which levers (disco
 
 **"Not statistically significant" does not prove "no effect".** The data are observational and cover purchasers only; they show discounts do not raise *basket value*, not whether they win *orders*.
 
-## Illustrative Opportunity Scenario (not a historical result)
-
-> **Assumptions, all hypothetical:** a share of the 2,518 unsubscribed repeat buyers converts; each converted customer places extra orders per year at the subscriber average order of $59.49 (Q5). The dataset shows subscribers do **not** spend more per order or buy more often, so any gain must come from added frequency or retention, which this data cannot measure. Figures are gross revenue, before the cost of any subscription incentive.
-
-| Share converted | Customers | +1 order per year | +2 orders per year |
-| --- | --- | --- | --- |
-| 10% | 252 | $14,991 | $29,983 |
-| 20% | 504 | $29,983 | $59,966 |
-
-Use this to decide whether a pilot is worth running, then measure the real uplift with a control group.
-
 ## Recommendations
 
 | # | Action | Evidence | 
