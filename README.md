@@ -3,7 +3,7 @@
 > **So what:** Spend per order is flat at about $60 in every segment, and 43% of orders carry a discount with no measurable lift in order value. The highest-return next step is a **randomized discount holdout test**, not broader promotions.
 
 <!-- PLACEHOLDER: replace with the updated Tableau screenshot after the polish edits -->
-![Customer Behavior Dashboard](dashboard/Dashboard.png)
+![Customer Behavior Dashboard](images/Dashboard.png)
 
 **Live dashboard:** https://public.tableau.com:9443/views/CustomerShoppingBehaviorDashboard_17952699805870/CustomerBehaviorDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
